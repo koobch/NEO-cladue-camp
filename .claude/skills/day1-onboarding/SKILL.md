@@ -116,7 +116,7 @@ Phase A의 마지막에는 반드시 아래 형태의 문구를 출력하고 Sto
 
 | Block | 주제 | 내용 |
 |-------|------|------|
-| 0 | Setup | Claude Code 설치 + 첫 대화 + CLAUDE.md |
+| 0 | Setup | 첫 실행 설정 + 에디터 + CLAUDE.md |
 | 1 | Experience | Working Backward 데모 3가지 |
 | 2 | Why | 왜 CLI? 왜 터미널? (퀴즈 2개) |
 | 3 | What | 7개 기능 소개 |
@@ -128,7 +128,7 @@ AskUserQuestion({
     "question": "어디서부터 시작할까요?",
     "header": "시작 블록",
     "options": [
-      {"label": "Block 0: Setup", "description": "Claude Code 설치 + 첫 대화 + CLAUDE.md"},
+      {"label": "Block 0: Setup", "description": "첫 실행 설정 + 에디터 + CLAUDE.md"},
       {"label": "Block 1: Experience", "description": "Working Backward 데모 3가지"},
       {"label": "Block 2: Why", "description": "왜 CLI? 왜 터미널?"},
       {"label": "Block 3: What", "description": "7개 기능 소개"}
