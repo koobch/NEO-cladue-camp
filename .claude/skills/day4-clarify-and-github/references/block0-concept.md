@@ -176,9 +176,9 @@ AskUserQuestion은 이런 구조로 되어 있다:
 | **제약** | "빨리 준비해줘" | 오늘 중 / 이번 주 / 다음 주까지 |
 | **우선순위** | "여러 안건 정리" | 반드시 포함 / 있으면 좋고 / 다음 회의로 |
 
-### Day 1에서 설치한 clarify 플러그인
+### Day 2에서 설치한 clarify 플러그인
 
-Day 1 Block 3-7에서 이미 clarify 플러그인을 설치했다. 기억나는가?
+Day 2 Block 4에서 이미 clarify 플러그인을 설치했다. 기억나는가?
 
 ```
 /plugin marketplace add team-attention/plugins-for-claude-natives

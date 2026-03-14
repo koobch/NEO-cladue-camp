@@ -84,19 +84,19 @@ Block 1에서 체험한 team-assemble을 다시 한번 살펴봅니다.
 
 | Day | 배운 것 | 만든 것 |
 |-----|---------|---------|
-| Day 1 | Claude Code 핵심 기능, CLAUDE.md, Memory, Skill | 첫 Memory, 첫 스킬, Plugin 설치 |
-| Day 2 | MCP, Hook, Plugin, Context Sync | MCP 연결, Context Sync 스킬 |
-| Day 3 | Clarify, Plugin 심화, GitHub | 나만의 Clarify 스킬, PRD 제출 |
-| Day 4 | session-wrap, 세션 분석, 콘텐츠 소화 | session-wrap 스킬, content-digest 체험 |
-| Day 5 | Subagent, Agent Teams, Multi-agent, Orchestration | my-session-wrap, 에이전트 팀 실행, 세션 분석 |
+| Day 1 | 환경 설치, CLAUDE.md, Memory, Skill, CSV 전처리 | 첫 Memory, 첫 스킬, CSV 전처리 스킬 |
+| Day 2 | 복습, MCP 소개, Hook, Plugin | MCP 연결, Plugin 설치 |
+| Day 3 | MCP 딥다이브, Context Sync 스킬 만들기 | Context Sync 스킬 |
+| Day 4 | Clarify, Plugin 심화, PRD, GitHub | 나만의 Clarify 스킬, PRD 제출 |
+| Day 5 | Subagent, Agent Teams, Multi-agent, 세션 분석, 콘텐츠 소화 | my-session-wrap, 에이전트 팀 실행, 세션 분석 |
 
 **성장 궤적:**
 
 ```
-Day 1: "Claude에게 질문하기"
-Day 2: "외부 도구 연결하기"
-Day 3: "나만의 스킬 만들기"
-Day 4: "Multi-agent 스킬 만들기"
+Day 1: "환경 설치 + Claude에게 질문하기"
+Day 2: "복습 + MCP/Hook/Plugin 배우기"
+Day 3: "MCP 딥다이브 + Context Sync 만들기"
+Day 4: "Clarify + Plugin 심화 + GitHub 제출"
 Day 5: "에이전트 팀을 오케스트레이션하기"
 ```
 

@@ -12,10 +12,11 @@ PRD(Product Requirements Document)는 "이 프로젝트가 뭘 해결하고, 뭘
 
 ### 2. 왜 지금 PRD를 쓰나?
 
-Day 1~3에서 배운 것들을 정리할 때입니다:
-- Day 1: Claude Code 핵심 기능 7개를 배웠다
-- Day 2: MCP를 연결하고 Context Sync 스킬을 만들었다
-- Day 3: Clarify로 모호한 요구사항을 명확하게 만들었다
+Day 1~4에서 배운 것들을 정리할 때입니다:
+- Day 1: 환경 설치, CLAUDE.md, Memory, Skill, CSV 전처리를 배웠다
+- Day 2: 복습, MCP 소개, Hook, Plugin을 배웠다
+- Day 3: MCP 딥다이브, Context Sync 스킬을 만들었다
+- Day 4: Clarify로 모호한 요구사항을 명확하게 만들었다
 
 **지금이 가장 좋은 타이밍입니다.** 배운 기술을 기반으로 "나는 이걸 만들겠다"를 선언하는 문서가 PRD입니다.
 
@@ -182,9 +183,9 @@ AskUserQuestion({
 
 **정답 4-2: 3번.** PR(Pull Request)은 "내 작업을 확인해주세요"라고 운영진에게 보내는 검토 요청이다. 제출 버튼을 누르는 것과 같다. 운영진이 확인 후 승인하면 반영된다.
 
-### Day 3 과제
+### Day 4 과제
 
-Slack **#day3** 채널에 아래를 공유하세요:
+Slack **#day4** 채널에 아래를 공유하세요:
 
 1. **Before/After**: Clarify 전후 요구사항 비교 (Block 1에서 체험한 결과)
 2. **가장 의외였던 질문**: Claude가 던진 질문 중 "이건 생각 못했다" 싶었던 것

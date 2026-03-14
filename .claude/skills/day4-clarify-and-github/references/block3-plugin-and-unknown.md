@@ -4,9 +4,9 @@
 
 ### Part 1: Plugin Deep Dive (~15분)
 
-#### Day 1 복습: Plugin이란
+#### Day 2 복습: Plugin이란
 
-Day 1 Block 3-7에서 배웠다. Plugin은 **Skill + MCP + Hook + Agent를 하나의 설치 단위로 묶은 패키지**다.
+Day 2 Block 4에서 배웠다. Plugin은 **Skill + MCP + Hook + Agent를 하나의 설치 단위로 묶은 패키지**다.
 
 ```
 개별 설치 (Plugin 없이)          Plugin (한 번에)
@@ -233,7 +233,7 @@ AskUserQuestion({
 
 Quiz 완료 후 아래 과제를 안내한다:
 
-### Day 3 과제
+### Day 4 과제
 
 > **경영지원 업무 중 하나를 골라서, clarify를 시켜보세요.**
 
@@ -241,7 +241,7 @@ Quiz 완료 후 아래 과제를 안내한다:
 2. Claude에게 clarify를 요청한다 (직접 만든 my-clarify 스킬 또는 clarify:vague 플러그인 사용)
 3. AskUserQuestion을 통한 질문에 답하면서, 요구사항이 구체화되는 과정을 경험한다
 
-### Slack 공유 (#day3)
+### Slack 공유 (#day4)
 
 채널에 올릴 내용:
 

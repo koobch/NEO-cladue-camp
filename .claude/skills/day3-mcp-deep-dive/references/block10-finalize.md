@@ -215,7 +215,7 @@ Claude가 4개 subagent를 동시에 호출하여 수집을 시작한다:
 
 ## QUIZ
 
-> Block 10은 종합 퀴즈를 출제한다. 사용자가 돌아오면 먼저 "Day 2의 모든 과정을 완료했습니다! 마지막으로 오늘 배운 것을 정리하는 퀴즈입니다." 라고 안내한 뒤 아래 퀴즈를 순서대로 출제한다.
+> Block 10은 종합 퀴즈를 출제한다. 사용자가 돌아오면 먼저 "Day 3의 모든 과정을 완료했습니다! 마지막으로 오늘 배운 것을 정리하는 퀴즈입니다." 라고 안내한 뒤 아래 퀴즈를 순서대로 출제한다.
 
 ### Quiz 10-1: 병렬 수집
 
@@ -274,19 +274,19 @@ AskUserQuestion({
 
 정답: 3번. Connector(클릭) → mcp add(명령어) → Plugin(패키지 설치) → 커뮤니티 Plugin(구조 이해까지) 순으로 난이도가 올라간다.
 
-### Quiz 10-4: Day 2 종합
+### Quiz 10-4: Day 3 종합
 
 ```json
 AskUserQuestion({
   "questions": [{
-    "question": "Day 2에서 배운 핵심 3가지를 고르세요.",
+    "question": "Day 3에서 배운 핵심 3가지를 고르세요.",
     "header": "Quiz 10-4",
     "options": [
-      {"label": "서버 배포", "description": "Day 2에서 배포는 다루지 않았음"},
+      {"label": "서버 배포", "description": "Day 3에서 배포는 다루지 않았음"},
       {"label": "subagent 병렬 수집", "description": "여러 소스에서 동시에 정보 수집"},
       {"label": "4가지 도구 연결 방법", "description": "Connector, mcp add, Plugin, 커뮤니티 Plugin"},
       {"label": "점진적 스킬 구축", "description": "STUB → 하나씩 채움 → 완성"},
-      {"label": "HTML 코딩", "description": "Day 2에서 HTML은 다루지 않았음"}
+      {"label": "HTML 코딩", "description": "Day 3에서 HTML은 다루지 않았음"}
     ],
     "multiSelect": true
   }]
@@ -294,4 +294,4 @@ AskUserQuestion({
 ```
 
 정답: subagent 병렬 수집(2번), 4가지 도구 연결 방법(3번), 점진적 스킬 구축(4번) — 3개 모두 선택
-피드백: "완벽합니다! 4가지 방법으로 도구를 연결하고, subagent로 동시에 수집하고, STUB에서 시작해 점진적으로 스킬을 완성했습니다. 이 3가지가 Day 2의 핵심입니다. 내일부터는 이 스킬을 기반으로 더 발전시켜 나갑니다!"
+피드백: "완벽합니다! 4가지 방법으로 도구를 연결하고, subagent로 동시에 수집하고, STUB에서 시작해 점진적으로 스킬을 완성했습니다. 이 3가지가 Day 3의 핵심입니다. 내일부터는 이 스킬을 기반으로 더 발전시켜 나갑니다!"

@@ -342,7 +342,7 @@ npx skills add ai-native-camp/camp-2 --agent claude-code --yes
 ```json
 AskUserQuestion({
   "questions": [{
-    "question": "Day 2: MCP & Context Sync\n\n어디서부터 시작할까요?",
+    "question": "Day 3: MCP 딥다이브 & Context Sync\n\n어디서부터 시작할까요?",
     "header": "시작 블록",
     "options": [
       {"label": "Part A: MCP 개념 (Block 0)", "description": "MCP가 뭔지, 왜 필요한지부터 시작"},
