@@ -100,7 +100,7 @@ Phase A의 마지막에는 반드시 아래 형태의 문구를 출력하고 Sto
 
 | Block | 주제 | 예상 시간 |
 |-------|------|-----------|
-| 0 | 환경 설치 | ~40분 |
+| 0 | 환경 확인 | ~10분 |
 | 1 | 기본 개념 | ~25분 |
 | 2 | CSV 전처리 실습 | ~35분 |
 | 3 | 스킬 만들기 + 내 데이터 | ~30분 |
@@ -110,7 +110,7 @@ Phase A의 마지막에는 반드시 아래 형태의 문구를 출력하고 Sto
 
 ## 블록 특수 규칙
 
-- **Block 0 (환경 설치)**: 퀴즈 없음. Phase A에서 설치 안내 → Stop. Phase B에서 설치 확인만.
+- **Block 0 (환경 확인)**: 퀴즈 없음. Phase A에서 설치 상태 확인 안내 → Stop. Phase B에서 확인 결과만.
 - **Block 1 (기본 개념)**: 표준 Phase A/B. CLAUDE.md, Memory, Skill 3가지를 설명하고 실습.
 - **Block 2 (CSV 전처리)**: Phase A에서 샘플 CSV 3종 소개 + Claude에게 전처리 시키는 법 안내 → Stop. Phase B에서 퀴즈.
 - **Block 3 (스킬 + 내 데이터)**: Phase A에서 전처리 작업을 Skill로 만드는 안내 → Stop. Phase B에서 퀴즈 + AskUserQuestion으로 본인 데이터 도전 여부 확인. "예"면 본인 데이터로 추가 실습 진행.
@@ -121,7 +121,7 @@ Phase A의 마지막에는 반드시 아래 형태의 문구를 출력하고 Sto
 
 | 블록 | 파일 | 주제 |
 |------|------|------|
-| Block 0 | `references/block0-install.md` | Git, Python, Node.js, Claude Code 설치 |
+| Block 0 | `references/block0-install.md` | 환경 설치 확인 + 터미널 기본 개념 |
 | Block 1 | `references/block1-basics.md` | CLAUDE.md, Memory, Skill 기본 개념 |
 | Block 2 | `references/block2-csv-practice.md` | 샘플 CSV 전처리 실습 |
 | Block 3 | `references/block3-skill-and-mydata.md` | 전처리 스킬 만들기 + 내 데이터 도전 |
@@ -155,7 +155,7 @@ Phase A의 마지막에는 반드시 아래 형태의 문구를 출력하고 Sto
 
 | Block | 주제 | 내용 |
 |-------|------|------|
-| 0 | 환경 설치 | Git, Python, Node.js, Claude Code 설치 |
+| 0 | 환경 확인 | 설치 확인 + 터미널 기본 개념 |
 | 1 | 기본 개념 | CLAUDE.md, Memory, Skill |
 | 2 | CSV 전처리 실습 | 샘플 데이터 분석 + 정제 + 통합 |
 | 3 | 스킬 만들기 + 내 데이터 | 전처리 스킬 만들기 + 본인 데이터 도전 |
@@ -166,7 +166,7 @@ AskUserQuestion({
     "question": "Day 1: 설치 + 데이터 실습\n\n어디서부터 시작할까요?",
     "header": "시작 블록",
     "options": [
-      {"label": "Block 0: 환경 설치", "description": "Git, Python, Node.js, Claude Code 설치부터"},
+      {"label": "Block 0: 환경 확인", "description": "설치 확인 + 터미널 기본 개념"},
       {"label": "Block 1: 기본 개념", "description": "설치는 끝났고, CLAUDE.md/Memory/Skill 개념부터"},
       {"label": "Block 2: CSV 전처리 실습", "description": "개념은 알고, 데이터 실습부터"},
       {"label": "Block 3: 스킬 만들기", "description": "전처리까지 했고, 스킬 만들기부터"}
